@@ -1,0 +1,264 @@
+\documentclass[letterpaper,9pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks = true, linkcolor = red, urlcolor = blue, citecolor = blue, anchorcolor = blue]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{libertinus}
+\usepackage{fontawesome5}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\hypersetup{pdfborder = 0 0 0}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\Large
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+
+
+% \titleformat{\section}{
+%   \vspace{-4pt}
+% }{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-0.5pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+  \item\small{
+    {#1 #2 #3 #4 \vspace{-0.5pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeExperienceHeading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.87\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+\vspace{-20pt}
+
+\begin{center}
+    {\Huge \scshape Anushka Ekka} \\[0pt]
+    \raisebox{-0.2\height}\ \href{mailto:anushkaekka23@gmail.com}{\faEnvelope\ anushkaekka23@gmail.com} ~
+    \href{https://www.linkedin.com/in/anushka-ekka-815821215/}{\faLinkedin\ Anushka Ekka} ~
+    \href{https://github.com/Chiccoo-oo}{\faGithub\ Chiccoo-oo}~
+    \href{https://leetcode.com/u/anushka23102/}{\faCode\ LeetCode} ~
+    \href{https://codeforces.com/profile/Anushka_ekka}{\faCode\ Codeforces}~
+    \href{https://www.codechef.com/users/chiccoo}{\faCode\ CodeChef}
+
+    \vspace{-8pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \vspace{-4pt}
+    \resumeSubheading
+      {International Institute of Information Technology, Naya Raipur}{July 2023 - July 2027}
+      {B.Tech in Data Science and Artificial Intelligence}{8.73/10}
+    \vspace{-17pt}
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \vspace{-12pt}
+  
+  \resumeExperienceHeading
+    {Samsung Research \& Development - R\&D Intern}{September 2025}
+    {}{}
+    \vspace{-21pt}
+   \resumeItemListStart
+      
+      \resumeItem{Designed and implemented robust error-handling and validation pipelines for LLM outputs, addressing multiple edge-case categories (ambiguous queries, missing context, conflicting inputs) and improving structured response reliability by 25–35\%}
+      
+   
+    \resumeItemListEnd
+ 
+  \vspace{-4pt}
+  
+  
+  \resumeExperienceHeading
+    {IIIT Naya Raipur - Research Assistant}{Aug 2024 - Dec 2024}
+    {}{}
+    \vspace{-21pt}
+    \resumeItemListStart
+      \resumeItem{Modeled a machine learning model using liver function tests for disease classification, achieving \textbf{99.94\% accuracy} using L2-regularized XGBoost.}
+      
+    \resumeItemListEnd
+
+  \vspace{-13pt}
+  
+  \resumeExperienceHeading
+    {Chhattisgarh Police - Full Stack Website Developer}{Jun 2024 - Present}
+    {}{}
+    \vspace{-21pt}
+    \resumeItemListStart
+      \resumeItem{Developed the official Chhattisgarh Police government website under a Digital Initiative, implementing role-based access control, secure APIs, and a scalable architecture to support 5,000+ users/month with 99\% uptime and improved page load time by 30\%.}
+    \resumeItemListEnd
+
+  \vspace{-16pt}
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+  \resumeItemListStart
+    \vspace{-7pt}
+    \resumeItem{\textbf{Winner} - Engineer's Ring of Honour (GeeksforGeeks x Naukri.com, 1st Place, 2025) , Government of India IDEA ONE Hackathon 2025 (among 600+ teams) , Chhattisgarh Envirothon 2025 for Sustainable AI Solutions(among 100+ teams)}
+    \vspace{-3pt}
+    
+    \resumeItem{\textbf{Finalist in 8+ Hackathons} - Including Microsoft Code Cubicle 5.0 (3rd Runner-up)}
+    \vspace{-3pt}
+    \resumeItem{\textbf{selected as a mentee for the Codess.Cafe} }
+    \vspace{-3pt}
+    
+     \resumeItem{\textbf{Solved 1000+ DSA problems} on LeetCode,\textbf{4 star} on CodeChef and \textbf{Expert} Codeforces 
+(\href{https://leetcode.com/u/anushka23102/}{LeetCode} | \href{https://codeforces.com/profile/Anushka_ekka}{Codeforces} | \href{https://www.codechef.com/users/chiccoo}{CodeChef})}
+
+    \vspace{-3pt}
+    \resumeItem{\textbf{Selected for Infosys Pragati Cohort 2} and \textbf{SheFi Scholar 2025}}
+    \vspace{-3pt}
+  \resumeItemListEnd
+  \vspace{-16pt}
+
+%----------Research Publications-----------
+\section{Publications}
+  \resumeSubHeadingListStart
+    \vspace{-8pt}
+    \resumeSubheading{IEEE NetCrypt 2025, JNU - Detectify: Optimized Network Traffic Anomaly Detection -  \href{https://ieeexplore.ieee.org/document/11102623}{\underline{Link}}}{}
+      {}{}
+    \vspace{-28pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \vspace{-10pt}
+    \resumeProjectHeading{\textbf{Walmart-YOLO: AI System for Real-Time Waste Management |} \textit{Python, YOLOv8, Q-Learning, Pathway CDC}}{\href{https://github.com/Chiccoo-oo/Smart-Pricing}{\underline{GitHub}}}
+      \resumeItemListStart
+        \resumeItem{Architected and deployed an end-to-end AI-driven inventory management system, approved by Chhattisgarh Government / NABARD, supporting real-time monitoring of 1,500+ SKUs across multiple CG Mart outlets, reducing manual inventory intervention and enabling a scalable, closed-loop retail ecosystem.}
+        \resumeItem{Automated price adjustments for 50+ perishable items across 8 inventory states using Q-learning, decreasing food spoilage by 25\% and boosting near-expiry stock sell-through rates.}
+        \resumeItem{Integrated YOLOv8 for real-time visual tracking and automated inventory counting, fusing computer vision with master product data via Pathway-based low-latency CDC pipeline ensuring system integrity and horizontal scalability across thousands of SKUs.}
+      \resumeItemListEnd
+    \vspace{-7pt}
+ \resumeProjectHeading{\textbf{CGPD-OCR: DevanagariDeepScan |} \textit{Python, PyTorch, CRNN-CTC, OpenCV, Offline LLM}}{\href{https://github.com/Chiccoo-oo/CGPD-OCR.git}{\underline{GitHub}}}
+  \resumeItemListStart
+    \resumeItem{Built a \textbf{secure offline AI system} for Chhattisgarh Police combining handwritten Hindi OCR and a station-level LLM chatbot, enabling real-time queries across \textbf{1,000+ digitized records} with \textbf{100\% on-prem data privacy}.}
+    \resumeItem{Developed a \textbf{CRNN-CTC OCR pipeline} trained on \textbf{5,000+ word images}, achieving \textbf{92–95\% accuracy} and delivering \textbf{3× performance improvement} on noisy, stamped police documents.}
+    \resumeItem{Applied \textbf{multi-source training and retrieval} to handle high handwriting variance, enabling \textbf{instant keyword search and case analysis} and reducing manual lookup time from \textbf{hours to seconds}.}
+  \resumeItemListEnd
+
+
+    \vspace{-7pt}
+    
+\resumeProjectHeading{\textbf{Bidirectional Neural Transliteration Service (Kaithi ↔ Hindi)|} \textit{Python, GANs, Deep Learning, Frequency Domain Analysis}}{\href{https://github.com/Chiccoo-oo/Kaithi-Bidirectional-Translaor}{\underline{GitHub}}}
+    \resumeItemListStart
+        \resumeItem{Engineered a custom Sequence-to-Sequence (Seq2Seq) LSTM neural network in PyTorch to automate character-level transliteration, achieving \textbf{94\% validation accuracy.}}
+        \resumeItem{Architected a highly scalable REST backend with FastAPI to serve the PyTorch inference engine, exposing 2 core bidirectional endpoints that process real-time text queries with \textbf{<50ms latency} and can seamlessly handle 100+ concurrent requests per second.}
+        \resumeItem{Compressed the trained model footprint to just ~900 KB, reducing memory overhead by \textbf{95\%} compared to standard NLP models and enabling highly efficient inference.}
+    \resumeItemListEnd
+    \vspace{-10pt}
+    
+   
+      
+  \resumeSubHeadingListEnd
+  \vspace{-1pt}
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+  \vspace{-6pt}
+  \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+      \textbf{Technical Skills \& Tools:} Python, C++, Java, C, SQL, JavaScript, HTML/CSS, VS Code, Git, GitHub, Jupyter Notebook, Flask, MySQL, Jenkins, Eclipse, Google Cloud Platform, Android Studio, WordPress \\
+      \textbf{Core Skills:} Machine Learning, Deep Learning, Reinforcement Learning (Q-Learning), Computer Vision (YOLOv8, OpenCV), Natural Language Processing, Explainable AI (XAI, SHAP, LIME), XGBoost, TensorFlow, PyTorch, GANs, CRNN-CTC, Transformers, IoT, Data Pre-Processing, Feature Engineering, JSON Schema Validation \\
+      
+      \textbf{Soft Skills:} Problem Solving, Leadership, Communication, Public Speaking, Event Execution and Management, Team Coordination \\
+    }}
+  \end{itemize}
+  \vspace{-16pt}
+
+%-----------POSITIONS OF RESPONSIBILITY-----------
+\section{Clubs \& Responsibilities}
+  \resumeSubHeadingListStart
+    \vspace{-5pt}
+    \resumeSubheading
+      {Head Placement Coordinator - Training and Placement Cell, IIIT-NR}{2024 - Present}{}{}
+      \vspace{-15pt}
+    \resumeSubheading
+      {Science and Technology Secretary, IIIT-NR}{2023 - 2024}{}{}
+      \vspace{-15pt}
+    \resumeSubheading
+      {Documentation Coordinator - MUN Club, IIIT-NR}{2023 - 2024}{}{}
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListEnd
+
+\end{document}
