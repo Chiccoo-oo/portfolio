@@ -193,7 +193,7 @@ export const projectsData: Project[] = [
     technologies: ["Python", "YOLOv8", "Q-Learning", "Pathway CDC", "OpenCV"],
     category: "AI/ML",
     githubLink: "https://github.com/Chiccoo-oo/Smart-Pricing",
-    demoLink: "#",
+    demoLink: "https://v0-remix-of-fork-of-vercel-ai-proj-chi.vercel.app/",
     status: "Active",
     image: "/walmart_yolo.png",
     iconName: "Recycle"
