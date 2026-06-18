@@ -224,7 +224,7 @@ export const projectsData: Project[] = [
     technologies: ["Python", "PyTorch", "GANs", "FastAPI", "Deep Learning", "LSTM"],
     category: "Research",
     githubLink: "https://github.com/Chiccoo-oo/Kaithi-Bidirectional-Translaor",
-    demoLink: "#",
+    demoLink: "https://kaithi-bidirectional-translaor-1.onrender.com/",
     status: "Completed",
     image: "/kaithi_transliterator.png",
     iconName: "Languages"
