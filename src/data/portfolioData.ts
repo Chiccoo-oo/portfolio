@@ -152,7 +152,7 @@ export const codingProfilesData: CodingProfile[] = [
   {
     platform: "CodeChef",
     username: "chiccoo",
-    rank: "4-Star Coder",
+    rank: "5-Star Coder",
     url: "https://www.codechef.com/users/chiccoo",
     description: "Competing in monthly cookoffs and lunchtimes."
   },
@@ -166,6 +166,22 @@ export const codingProfilesData: CodingProfile[] = [
 ];
 
 export const projectsData: Project[] = [
+  {
+    name: "NextSafar: AI-Powered Indian Travel Planner",
+    description: "Built a free, AI-powered travel planner using Next.js and the Groq API (Llama 3.1). It generates highly personalized itineraries, estimates realistic budgets, visualizes destinations on an interactive map, and allows trip sharing.",
+    features: [
+      "Integrated Groq API with Llama 3.1 8B for blazing-fast, multi-step AI generation of itineraries tailored to user's transport preferences.",
+      "Implemented budget intelligence using strict AI prompting to prevent over-budgeting, prioritizing affordable transport and hotels.",
+      "Developed interactive destination mapping with react-leaflet and OpenStreetMap, alongside dynamic Unsplash image fetching."
+    ],
+    technologies: ["Next.js", "React", "Groq API", "Llama 3.1", "react-leaflet"],
+    category: "Web Development",
+    githubLink: "https://github.com/Chiccoo-oo/NextSafar",
+    demoLink: "https://nextsafarss-qmonjdp5n-chiccoos-projects.vercel.app/",
+    status: "Completed",
+    image: "/nextsafar.png",
+    iconName: "Code2"
+  },
   {
     name: "Walmart-YOLO: AI System for Real-Time Waste Management",
     description: "Architected and deployed an end-to-end AI-driven inventory management system, approved by Chhattisgarh Government / NABARD, supporting real-time monitoring of 1,500+ SKUs across multiple CG Mart outlets, reducing manual inventory intervention and enabling a scalable, closed-loop retail ecosystem.",
@@ -278,7 +294,7 @@ export const achievementsData: Achievement[] = [
   },
   {
     title: "Competitive Programming",
-    details: "Solved 1000+ DSA problems on LeetCode, reached 4-Star coder rating on CodeChef, and achieved Expert rank on Codeforces.",
+    details: "Solved 1000+ DSA problems on LeetCode, reached 5-Star coder rating on CodeChef, and achieved Expert rank on Codeforces.",
     metric: "Expert",
     iconName: "Code"
   },
